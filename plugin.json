@@ -1,0 +1,12 @@
+{
+  "name": "video-distillery",
+  "displayName": "🎬 Video Distillery",
+  "description": "Daily global scan of high-quality videos and GitHub open-source video tools; distills cinematic craft into reusable knowledge; replicates ≥80% quality of any reference clip with director-level storytelling, film-quality shot design, and documentary-grade narrative structure.",
+  "version": "1.0.0",
+  "author": "Custom",
+  "suggestedPrompts": [
+    "分析这个参考片并复刻方案",
+    "今天发现了哪些顶级视频和开源工具？",
+    "用导演思维帮我写这个视频的分镜脚本"
+  ]
+}
