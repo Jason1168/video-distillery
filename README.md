@@ -2,6 +2,28 @@
 
 > An Antigravity plugin that **distills cinematic craft from the world's best videos daily** and replicates any reference video at ≥80% quality — with director-level storytelling and documentary-grade narrative structure.
 
+
+## Cursor
+
+用 Cursor 打开这个仓库就会加载技能，路径是 `.cursor/skills/film-craft-distill/`。完成线是 95 分。80 分以下推倒重做，80 到 94 不能交付。
+
+新开一个 Agent 对话后试这两句：
+
+```
+跑今天的蒸馏
+```
+
+```
+用 film-craft-distill 复刻这个参考片：/你的路径/参考.mp4。素材在 /你的路径/素材/
+```
+
+本机需要 ffmpeg。参考片只用来测量，成片用你自己的素材。冒烟检查：
+
+```bash
+python3 .cursor/skills/film-craft-distill/scripts/score_replica.py --self-test
+python3 .cursor/skills/film-craft-distill/scripts/check_plan.py --self-test
+```
+
 ---
 
 ## ✨ What It Does

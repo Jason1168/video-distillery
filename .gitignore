@@ -1,2 +1,9 @@
 # Generated data directory — not tracked in git
 data/
+
+__pycache__/
+*.pyc
+.cursor/skills/film-craft-distill/library/digests/
+.cursor/skills/film-craft-distill/library/seen.json
+.cursor/skills/film-craft-distill/library/logs/
+.cursor/skills/film-craft-distill/library/cache/
